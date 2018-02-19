@@ -91,7 +91,13 @@
       </plugin>
     </plugins>
   </build>
-
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>localhost.localdomain-snapshots</name>
+        <url>http://192.168.1.104:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
   <reporting>
     <plugins>
       <plugin>
